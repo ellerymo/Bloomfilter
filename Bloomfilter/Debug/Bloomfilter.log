@@ -1,0 +1,15 @@
+﻿  test.cpp
+e:\working\bloomfilter\bloomfilter\bitmap.h(30): warning C4800: “unsigned int”: 将值强制为布尔值“true”或“false”(性能警告)
+          e:\working\bloomfilter\bloomfilter\bitmap.h(28): 编译类 模板 成员函数“bool BitMap<size_t>::test(const K &)”时
+          with
+          [
+              K=size_t
+          ]
+          e:\working\bloomfilter\bloomfilter\test.cpp(9): 参见对正在编译的函数 模板 实例化“bool BitMap<size_t>::test(const K &)”的引用
+          with
+          [
+              K=size_t
+          ]
+          e:\working\bloomfilter\bloomfilter\bloom.h(110): 参见对正在编译的类 模板 实例化“BitMap<size_t>”的引用
+          e:\working\bloomfilter\bloomfilter\bloom.h(133): 参见对正在编译的类 模板 实例化“BloomFilter<_HashFunc1,_HashFunc2,_HashFunc3,_HashFunc4,_HashFunc5>”的引用
+  Bloomfilter.vcxproj -> E:\working\Bloomfilter\Debug\Bloomfilter.exe
